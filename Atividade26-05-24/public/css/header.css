@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #C1BDBD;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    width: 40%;
+
+}
+li{
+    list-style: none; 
+    display: flex;
+    align-items: center; 
+   
+    margin-right: 0;
+    
+}
+.aba-cabe a, .text-mobile{
+   
+    color: white;
+    text-decoration:underline;
+    text-underline-offset: 5px;
+    font-weight: 600;
+   
+}
+header{
+    background-color: #650000;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+   
+.bola-header{
+    position: absolute;
+    left: 50%;
+    top: 4%;
+    background-color: #490000;
+    border-radius: 100%;
+    width: 326px;
+    height: 152px;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+.cabecalho-mobile{
+    display: none;
+}
+.fundo-cont{
+    background-color: #2F0000;
+}
+@media (max-width: 1200px) {
+    ul{
+        width: 60%;
+    }
+}
+@media (max-width: 768px) {
+    header{
+        display: none;
+    }
+    .cabecalho-mobile{
+        display: block;
+    }
+    .bola-header{
+        top: 2%;
+    }
+}
+
+
+
+
+/********/
+
+strong{
+    font-size: 40px;
+    font-weight: bold;
+    color: #650000;
+}
+.btn-tri{
+    border-radius: 60px;
+    background-color: #650000;
+    display: inline;
+    padding: 5px 15px;
+
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.alinhar-cards{
+    display: flex;
+    justify-content: center;
+}
+.linha-separate{
+    height: 10px;
+    background-color: black;
+}
+
+
+/**********/
+
+.QuemSomos{
+    background-color: #200B0B;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    width: 80%;
+}
+.quem-cont{
+    padding: 60px 30px;
+    display: flex;
+    justify-content: center;
+}
+h1, p.iman-quemS{
+    color: #650000;
+    font-weight: lighter;
+}
+h2{
+    color: #650000;
+    font-size: 1.2em;
+}
+.quemSLinha{
+    height: 5px;
+    background-color: #650000;
+}
+
+@media (max-width: 560px) {
+    .quem-cont{
+        padding: 60px 0px;
+    }
+}
+
+
+label{
+    color: #650000;
+    font-weight: bold;
+}
+button{
+    border-radius: 20px;
+    background-color: #0F0606;
+    color: #650000;
+    border: 1px solid black;
+    padding: 6px 40px;
+
+}
+
+
+
+/********/
+
+
+footer{
+    background-color: #650000;
+    display: flex;
+    justify-content: center;
+   
+}
+.footer{
+    width: 80%;
+    border-left: 10px solid #2F0000;
+    border-right: 10px solid #2F0000;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    
+}
